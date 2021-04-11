@@ -10,7 +10,6 @@ import { errorHandler } from "./middleware/error.middleware"
 import { notFoundHandler } from "./middleware/not-found.middleware"
 import { usersRouter } from "./users/users.router"
 import cookieParser from 'cookie-parser'
-import { authenticate } from "./middleware/auth.middleware"
 
 dotenv.config()
 

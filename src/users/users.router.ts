@@ -7,7 +7,6 @@ import * as UserService from "./users.service"
 import { UserLogin } from "./user.interface"
 import { UserAuth } from "../common/interfaces/user-auth.interface"
 import { generateAccessToken } from "../common/config/auth"
-import { authenticate } from "../middleware/auth.middleware"
 
 /**
  * Router Definition

@@ -18,7 +18,4 @@ export interface UserLogin {
 export enum Role {
   superAdmin = 'Super Admin',
   admin = 'Admin',
-  networkHead = 'Network Head',
-  lifeGroupLeader = 'Life Group Leader',
-  usher = 'Usher'
 }
